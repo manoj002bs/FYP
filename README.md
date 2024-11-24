@@ -1,28 +1,43 @@
-# FYP
-Digital Vision Support System
+# Digital Vision Support System
 
-********************** README FOR FYP CODE *****************************************
+## Prerequisites
 
-********************** PREREQUISITES ***********************************************
+To successfully run the script, you need to install the following Python packages:
 
-In order to run the script successfully, you may want to install these packages first.
-	--pytesseract
-	--opencv
-	--pyttsx
+- `pytesseract`
+- `opencv`
+- `pyttsx`
 
-*********************** FOLDER DESCRIPTION ******************************************
+## Folder Description
 
-Input Images	--	This folder should contain input images for which text has to be extracted.
-Output		--	This folder contains left page and right page split images.
+- **Input Images**  
+  This folder should contain the input images for which text needs to be extracted.
 
-Final_code_ipwebcam.py	--	This is the final script file which takes input images from the android camera via "IpWebcam", splits it into left and right pages and stores it in "Output" folder and then extracts and speaks the text.
+- **Output**  
+  This folder contains the left-page and right-page split images.
 
+## Script Description
 
-Rest of the script files are the ones which we tried implementing different methods and didn't work out :)
+- **Final_code_ipwebcam.py**  
+  This is the final script file. It:
+  1. Takes input images from the Android camera via "IP Webcam."
+  2. Splits the input into left and right pages and stores them in the "Output" folder.
+  3. Extracts and speaks the text.
 
-*********************** CONTACT ****************************************************** 
+## Additional Notes
 
-Dr. AashaNandhini--	aashanandhinis@ssn.edu.in	
-Manoj B S	--	manoj2011025@ssn.edu.in
-Maniyarasan V	--	maniyarasan2010457@ssn.edu.in
-Jayakrishnan V	--	jaya2012012@ssn.edu.in
+- The rest of the script files are experimental versions that used different methods but did not work as expected.
+
+## Contact
+
+- **Dr. Aasha Nandhini**  
+  Email: [aashanandhinis@ssn.edu.in](mailto:aashanandhinis@ssn.edu.in)
+
+- **Manoj B S**  
+  Email: [manoj2011025@ssn.edu.in](mailto:manoj2011025@ssn.edu.in)
+
+- **Maniyarasan V**  
+  Email: [maniyarasan2010457@ssn.edu.in](mailto:maniyarasan2010457@ssn.edu.in)
+
+- **Jayakrishnan V**  
+  Email: [jaya2012012@ssn.edu.in](mailto:jaya2012012@ssn.edu.in)
